@@ -1,4 +1,4 @@
-# Desafio Ruby on Rails - ByCoders CNAB Reader by Henrique
+# CNAB Reader by Henrique
 
 This application aims to process a CNAB file and save the information correctly in the database.
 
@@ -12,8 +12,8 @@ This application aims to process a CNAB file and save the information correctly 
 First of all, you need to clone the project into your local machine and enter in the project's folder.
 
 ```bash
-git clone git@github.com:henriquenm/desafio-ruby-on-rails.git
-cd desafio-ruby-on-rails/bycoders-cnab-reader
+git clone git@github.com:henriquenm/credere.git
+cd credere
 ```
 
 Now, run bundler to install all project's gems and dependencies.
