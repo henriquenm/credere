@@ -1,0 +1,17 @@
+<div class="store-index">
+  <% if @stores.present? %>
+    <div class="store-items">
+      <% @stores.each do |store| %>
+        <div class="store-item">
+          <%= link_to store_path(store) do %>
+            <li>Loja: <%= store.name %></li>
+            <li>Representante: <%= store.owner_name %></li>
+            <li>Saldo: <%= display_currency(store.balance) %></li>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  <% else %>
+    <h2>Ainda não existe transações, importe um CNAB.</h2>
+  <% end %>
+</div>

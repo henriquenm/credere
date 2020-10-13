@@ -1,0 +1,14 @@
+.welcome-page {
+  text-align: center;
+}
+
+.welcome-links a {
+  display: block;
+  color: $main-black-color;
+  transition: 0.4s;
+}
+
+.welcome-links a:hover {
+  color: rgba(0,0,0,0.6);
+  transition: 0.4s;
+}

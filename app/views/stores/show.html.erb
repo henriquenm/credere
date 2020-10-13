@@ -1,0 +1,17 @@
+<div class="store-show">
+  <h2><%= @store.name %></h2>
+  <div class="transaction-items">
+    <% @transactions.each do |transaction| %>
+      <% transaction_type = transaction.transaction_type %>
+      <% nature = transaction_type.signal == "+" ? "in" : "out" %>
+      <div class="transaction-item <%= nature %>">
+        <li><%= transaction_type.signal %> <%= transaction_type.nature %></li>
+        <li>Operação: <%= transaction_type.description %></li>
+        <li>Valor: <%= display_currency(transaction.value) %></li>
+        <li>Cartão: <%= transaction.card %></li>
+        <li>Beneficiário: <%= transaction.cpf %></li>
+        <li>Data e Hora: <%= transaction.date_and_time.strftime("%d/%m/%Y %H:%M:%S") %></li>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.new-import-page {
+  input[type="submit"] {
+    padding: 15px;
+    background-color: $black-with-opacity;
+    border: 1px solid $black-with-opacity;
+    color: $main-white-color;
+    text-transform: uppercase;
+    border-radius: 4px;
+    box-shadow: $box-shadow;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: $main-white-color;
+    border: 1px solid $black-with-opacity;
+    color: $main-black-color;
+    box-shadow: none;
+    transition: 0.4s;
+  }
+}

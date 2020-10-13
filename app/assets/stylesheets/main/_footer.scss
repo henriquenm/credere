@@ -1,0 +1,18 @@
+footer#footer {
+  width: 100%;
+  margin-top: 5%;
+  background-color: $footer-color;
+  box-shadow: $box-shadow;
+}
+
+footer#footer .info {
+  text-align: center;
+  padding: 25px 0;
+  letter-spacing: 1px;
+}
+
+footer#footer p {
+  font-size: 12px;
+  line-height: 10px;
+  color: $main-black-color;
+}

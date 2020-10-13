@@ -1,0 +1,7 @@
+<div class="new-import-page">
+  <%= form_with(url: {action: :import}, multipart: true) do %>
+    <%= file_field_tag :import_file %><br><br>
+
+    <%= submit_tag "Importar CNAB" %>
+  <% end %>
+</div>

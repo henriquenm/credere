@@ -1,0 +1,81 @@
+// START STORE INDEX
+.store-index {
+  width: 100%;
+  text-align: center;
+}
+
+.store-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.store-item {
+  text-align: left;
+  width: 50%;
+  padding: 30px;
+  border: 1px solid $main-black-color;
+  border-radius: 4px;
+  margin: 10px;
+  background-color: $black-with-opacity;
+  box-shadow: $box-shadow;
+
+  a {
+    color: $main-white-color;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+// END STORE INDEX
+
+// START STORE SHOW
+.store-show {
+  width: 100%;
+  text-align: center;
+}
+
+.transaction-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-item {
+  text-align: left;
+  width: 50%;
+  padding: 15px;
+  border: 1px solid $main-black-color;
+  border-radius: 4px;
+  margin: 10px;
+  box-shadow: $box-shadow;
+
+  li {
+    list-style: none;
+  }
+}
+
+.transaction-item.in {
+  background-color: $green-with-opacity;
+}
+
+.transaction-item.out {
+  background-color: $red-with-opacity;
+}
+// END STORE SHOW
+
+// START MEDIA QUERIES
+@media screen and (max-width: 768px) {
+  .store-item {
+    width: 100%;
+  }
+
+  .transaction-item {
+    width: 100%;
+  }
+}
+// END MEDIA QUERIES
