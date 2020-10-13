@@ -89,7 +89,7 @@ And see coverage with simplecov
 open coverage/index.html
 ```
 
-## Documentação do CNAB
+## CNAB documentation
 
 | Descrição do campo  | Inicio | Fim | Tamanho | Comentário
 | ------------- | ------------- | -----| ---- | ------
@@ -102,7 +102,7 @@ open coverage/index.html
 | Dono da loja | 49 | 62 | 14 | Nome do representante da loja
 | Nome loja | 63 | 81 | 19 | Nome da loja
 
-## Documentação sobre os tipos das transações
+## Transaction Types
 
 | Tipo | Descrição | Natureza | Sinal |
 | ---- | -------- | --------- | ----- |
