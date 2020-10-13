@@ -39,11 +39,11 @@ default: &default
 
 development:
   <<: *default
-  database: bycoders_development
+  database: credere_development
 
 test:
   <<: *default
-  database: bycoders_test
+  database: credere_test
 ```
 
 After database configuration file is created, run the following commands to create database and run migrations.

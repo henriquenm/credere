@@ -1,5 +1,5 @@
 {
-  "name": "bycoders",
+  "name": "credere",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
